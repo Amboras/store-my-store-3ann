@@ -46,13 +46,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block">
-              <span className="font-heading text-2xl font-semibold">
-                Store
+            <Link href="/" className="inline-flex items-center gap-2">
+              <div className="h-7 w-7 rounded bg-blue-500 flex items-center justify-center flex-shrink-0">
+                <svg viewBox="0 0 24 24" fill="none" className="h-4 w-4 text-white" stroke="currentColor" strokeWidth="2.5">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+              </div>
+              <span className="font-heading text-xl font-bold tracking-tight">
+                NexaCore
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Curated products crafted with care. Quality you can feel, design you can see.
+              Premium technology gear engineered for peak performance and real-world reliability.
             </p>
           </div>
 
@@ -102,7 +107,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Store. All rights reserved.
+            &copy; {new Date().getFullYear()} NexaCore. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <button

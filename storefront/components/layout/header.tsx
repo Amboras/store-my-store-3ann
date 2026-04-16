@@ -82,8 +82,13 @@ export default function Header() {
 
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-              <span className="font-heading text-2xl font-semibold tracking-tight">
-                Store
+              <div className="h-7 w-7 rounded bg-blue-500 flex items-center justify-center flex-shrink-0">
+                <svg viewBox="0 0 24 24" fill="none" className="h-4 w-4 text-white" stroke="currentColor" strokeWidth="2.5">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+              </div>
+              <span className="font-heading text-xl font-bold tracking-tight">
+                NexaCore
               </span>
             </Link>
 

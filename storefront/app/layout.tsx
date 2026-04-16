@@ -30,10 +30,10 @@ const body = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Store — Modern Commerce',
-    template: '%s | Store',
+    default: 'NexaCore — Premium Tech Gear',
+    template: '%s | NexaCore',
   },
-  description: 'Discover curated products crafted with care. A modern ecommerce experience.',
+  description: 'Premium technology gear engineered for peak performance. Shop the latest in cutting-edge gadgets and accessories.',
 }
 
 export default function RootLayout({
